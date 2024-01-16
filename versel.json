@@ -12,5 +12,5 @@
       "dest": "/index.html.erb"
     }
   ],
-  "root": "public"
+  "root": "app"
 }
