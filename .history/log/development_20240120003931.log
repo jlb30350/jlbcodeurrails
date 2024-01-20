@@ -1,0 +1,1746 @@
+Started GET "/" for ::1 at 2024-01-15 22:31:11 +0100
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/3.0.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/3.0.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 577)
+Completed 200 OK in 28ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 10087)
+
+
+Started GET "/" for ::1 at 2024-01-15 22:57:55 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/3.0.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/3.0.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 577)
+Completed 200 OK in 11ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 7201)
+
+
+Started GET "/home" for ::1 at 2024-01-15 22:58:17 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/" for ::1 at 2024-01-15 23:00:07 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/3.0.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/3.0.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 577)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 7201)
+
+
+Started GET "/" for ::1 at 2024-01-15 23:00:07 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/3.0.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/3.0.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 24)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 347)
+
+
+Started GET "/home" for ::1 at 2024-01-15 23:00:18 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 294)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1610)
+
+
+Started GET "/home" for ::1 at 2024-01-15 23:02:54 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 407)
+Completed 200 OK in 11ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 7209)
+
+
+Started GET "/home" for ::1 at 2024-01-15 23:05:47 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 277.5ms | Allocations: 109578)
+Completed 200 OK in 286ms (Views: 281.0ms | ActiveRecord: 0.0ms | Allocations: 116375)
+
+
+Started GET "/home" for ::1 at 2024-01-15 23:08:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1539)
+  Rendered layout layouts/application.html.erb (Duration: 65.7ms | Allocations: 42533)
+Completed 200 OK in 75ms (Views: 69.3ms | ActiveRecord: 0.0ms | Allocations: 49346)
+
+
+Started GET "/css/styles.css" for ::1 at 2024-01-15 23:08:03 +0100
+Started GET "/js/script.js" for ::1 at 2024-01-15 23:08:03 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/styles.css"):
+  
+Started GET "/images/linkedin%20.png" for ::1 at 2024-01-15 23:08:03 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin%20.png"):
+  
+Started POST "/home" for ::1 at 2024-01-15 23:08:11 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home"):
+  
+Started GET "/home" for ::1 at 2024-01-15 23:08:11 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1587)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1917)
+
+
+Started GET "/css/styles.css" for ::1 at 2024-01-15 23:08:11 +0100
+Started GET "/js/script.js" for ::1 at 2024-01-15 23:08:11 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/styles.css"):
+  
+Started GET "/images/linkedin%20.png" for ::1 at 2024-01-15 23:08:11 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin%20.png"):
+  
+Started GET "/images/linkedin%20.png" for ::1 at 2024-01-15 23:08:20 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin%20.png"):
+  
+Started GET "/home" for ::1 at 2024-01-15 23:19:38 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1539)
+  Rendered layout layouts/application.html.erb (Duration: 74.0ms | Allocations: 50962)
+Completed 200 OK in 83ms (Views: 77.7ms | ActiveRecord: 0.0ms | Allocations: 57774)
+
+
+Started GET "/css/styles.css" for ::1 at 2024-01-15 23:19:38 +0100
+Started GET "/js/script.js" for ::1 at 2024-01-15 23:19:38 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/script.js"):
+  
+Started GET "/images/linkedin%20.png" for ::1 at 2024-01-15 23:19:38 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/css/styles.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin%20.png"):
+  
+Started POST "/home" for ::1 at 2024-01-15 23:19:46 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home"):
+  
+Started POST "/home" for ::1 at 2024-01-15 23:20:32 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home"):
+  
+Started POST "/home" for ::1 at 2024-01-15 23:20:42 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home"):
+  
+Started GET "/css/styles.css" for ::1 at 2024-01-15 23:21:11 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/css/styles.css"):
+  
+Started GET "/home" for ::1 at 2024-01-15 23:21:27 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1485)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 1816)
+
+
+Started GET "/css/styles.css" for ::1 at 2024-01-15 23:21:27 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/css/styles.css"):
+  
+Started GET "/js/script.js" for ::1 at 2024-01-15 23:21:28 +0100
+Started GET "/images/linkedin%20.png" for ::1 at 2024-01-15 23:21:28 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin%20.png"):
+  
+Started POST "/home" for ::1 at 2024-01-15 23:21:47 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home"):
+  
+Started POST "/home" for ::1 at 2024-01-15 23:22:17 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home"):
+  
+Started POST "/home" for ::1 at 2024-01-15 23:23:24 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home"):
+  
+Started GET "/home" for ::1 at 2024-01-15 23:25:55 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 1465)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 1765)
+
+
+Started GET "/css/styles.css" for ::1 at 2024-01-15 23:25:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/css/styles.css"):
+  
+Started GET "/js/script.js" for ::1 at 2024-01-15 23:25:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/script.js"):
+  
+Started GET "/images/linkedin%20.png" for ::1 at 2024-01-15 23:25:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin%20.png"):
+  
+Started GET "/home" for ::1 at 2024-01-15 23:26:19 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 1465)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 1764)
+
+
+Started GET "/css/styles.css" for ::1 at 2024-01-15 23:26:19 +0100
+Started GET "/js/script.js" for ::1 at 2024-01-15 23:26:19 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/styles.css"):
+  
+Started GET "/images/linkedin%20.png" for ::1 at 2024-01-15 23:26:19 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin%20.png"):
+  
+Started GET "/home" for ::1 at 2024-01-15 23:26:21 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1473)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 1772)
+
+
+Started GET "/css/styles.css" for ::1 at 2024-01-15 23:26:21 +0100
+Started GET "/js/script.js" for ::1 at 2024-01-15 23:26:21 +0100
+Started GET "/images/linkedin%20.png" for ::1 at 2024-01-15 23:26:21 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin%20.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/styles.css"):
+  
+Started GET "/home" for ::1 at 2024-01-15 23:35:18 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 44.9ms | Allocations: 27530)
+  Rendered layout layouts/application.html.erb (Duration: 45.3ms | Allocations: 27653)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms | Allocations: 34406)
+
+
+  
+ActionView::Template::Error (The asset "linkedin.png" is not present in the asset pipeline.
+):
+    432:         <footer class="text-center">
+    433:             <a href="#about"><span class="bi-chevron-up">Haut de page</span></a>
+    434:             <h5>Mon linkedin</h5><a href="https://www.linkedin.com/in/jean-luc-bonneville-4b561365" target="_blank">
+    435:                 <%= image_tag('linkedin.png', class: 'img-thumbnail', alt: 'linkedin share') %>
+    436: 
+    437: 
+    438:         </footer>
+  
+app/views/home/index.html.erb:435
+Started GET "/home" for ::1 at 2024-01-15 23:44:18 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 19.7ms | Allocations: 3971)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 4046)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 4354)
+
+
+  
+ActionView::Template::Error (The asset "linkedin.png" is not present in the asset pipeline.
+):
+    432:         <footer class="text-center">
+    433:             <a href="#about"><span class="bi-chevron-up">Haut de page</span></a>
+    434:             <h5>Mon linkedin</h5><a href="https://www.linkedin.com/in/jean-luc-bonneville-4b561365" target="_blank">
+    435:                 <%= image_tag('linkedin.png', class: 'img-thumbnail', alt: 'linkedin share') %>
+    436: 
+    437: 
+    438:         </footer>
+  
+app/views/home/index.html.erb:435
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+Started GET "/home" for ::1 at 2024-01-15 23:49:25 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 263.0ms | Allocations: 111472)
+  Rendered layout layouts/application.html.erb (Duration: 263.3ms | Allocations: 111595)
+Completed 500 Internal Server Error in 274ms (ActiveRecord: 0.0ms | Allocations: 118348)
+
+
+  
+ActionView::Template::Error (The asset "linkedin.png" is not present in the asset pipeline.
+):
+    432:         <footer class="text-center">
+    433:             <a href="#about"><span class="bi-chevron-up">Haut de page</span></a>
+    434:             <h5>Mon linkedin</h5><a href="https://www.linkedin.com/in/jean-luc-bonneville-4b561365" target="_blank">
+    435:                 <%= image_tag('linkedin.png', class: 'img-thumbnail', alt: 'linkedin share') %>
+    436: 
+    437: 
+    438:         </footer>
+  
+app/views/home/index.html.erb:435
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 00:12:24 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 51.4ms | Allocations: 33497)
+  Rendered layout layouts/application.html.erb (Duration: 57.0ms | Allocations: 38270)
+Completed 200 OK in 67ms (Views: 62.6ms | ActiveRecord: 0.0ms | Allocations: 45005)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:12:24 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 00:12:32 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 749)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1474)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 1791)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:12:32 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 00:12:42 +0100
+  
+ActionController::RoutingError (uninitialized constant ContactController
+Did you mean?  ActionController):
+  
+Started POST "/submit" for ::1 at 2024-01-16 00:12:58 +0100
+  
+ActionController::RoutingError (uninitialized constant ContactController
+Did you mean?  ActionController):
+  
+Started GET "/" for ::1 at 2024-01-16 00:18:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 39.8ms | Allocations: 24654)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 29557)
+Completed 200 OK in 62ms (Views: 56.5ms | ActiveRecord: 0.0ms | Allocations: 36310)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:18:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 00:18:54 +0100
+  
+Zeitwerk::NameError (expected file /home/bonneville/mesprojets/jlbcodeurrails/app/controllers/contact_controller.rb to define constant ContactController, but didn't):
+  
+zeitwerk (2.6.12) lib/zeitwerk/loader/callbacks.rb:33:in `on_file_autoloaded'
+zeitwerk (2.6.12) lib/zeitwerk/kernel.rb:31:in `require'
+activesupport (7.1.2) lib/active_support/inflector/methods.rb:290:in `const_get'
+activesupport (7.1.2) lib/active_support/inflector/methods.rb:290:in `constantize'
+activesupport (7.1.2) lib/active_support/core_ext/string/inflections.rb:74:in `constantize'
+actionpack (7.1.2) lib/action_dispatch/http/request.rb:90:in `controller_class_for'
+actionpack (7.1.2) lib/action_dispatch/request/utils.rb:100:in `action_encoding_template'
+actionpack (7.1.2) lib/action_dispatch/request/utils.rb:85:in `encode'
+actionpack (7.1.2) lib/action_dispatch/request/utils.rb:45:in `set_binary_encoding'
+actionpack (7.1.2) lib/action_dispatch/http/parameters.rb:68:in `path_parameters='
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:43:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.2) lib/active_record/migration.rb:654:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-01-16 00:24:04 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 47.9ms | Allocations: 24616)
+  Rendered layout layouts/application.html.erb (Duration: 61.3ms | Allocations: 29519)
+Completed 200 OK in 72ms (Views: 65.9ms | ActiveRecord: 0.0ms | Allocations: 36272)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:24:04 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 00:24:09 +0100
+  
+Zeitwerk::NameError (expected file /home/bonneville/mesprojets/jlbcodeurrails/app/controllers/contact_controller.rb to define constant ContactController, but didn't):
+  
+zeitwerk (2.6.12) lib/zeitwerk/loader/callbacks.rb:33:in `on_file_autoloaded'
+zeitwerk (2.6.12) lib/zeitwerk/kernel.rb:31:in `require'
+activesupport (7.1.2) lib/active_support/inflector/methods.rb:290:in `const_get'
+activesupport (7.1.2) lib/active_support/inflector/methods.rb:290:in `constantize'
+activesupport (7.1.2) lib/active_support/core_ext/string/inflections.rb:74:in `constantize'
+actionpack (7.1.2) lib/action_dispatch/http/request.rb:90:in `controller_class_for'
+actionpack (7.1.2) lib/action_dispatch/request/utils.rb:100:in `action_encoding_template'
+actionpack (7.1.2) lib/action_dispatch/request/utils.rb:85:in `encode'
+actionpack (7.1.2) lib/action_dispatch/request/utils.rb:45:in `set_binary_encoding'
+actionpack (7.1.2) lib/action_dispatch/http/parameters.rb:68:in `path_parameters='
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:43:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.2) lib/active_record/migration.rb:654:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-01-16 00:29:57 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 41.3ms | Allocations: 24655)
+  Rendered layout layouts/application.html.erb (Duration: 52.2ms | Allocations: 29558)
+Completed 200 OK in 64ms (Views: 56.4ms | ActiveRecord: 0.0ms | Allocations: 36311)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:29:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 00:30:20 +0100
+  
+SyntaxError (/home/bonneville/mesprojets/jlbcodeurrails/app/controllers/contact_controller.rb:6: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/contact_controller.rb:6: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/submit" for ::1 at 2024-01-16 00:30:31 +0100
+  
+SyntaxError (/home/bonneville/mesprojets/jlbcodeurrails/app/controllers/contact_controller.rb:6: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/contact_controller.rb:6: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for ::1 at 2024-01-16 00:34:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/bonneville/mesprojets/jlbcodeurrails/app/controllers/home_controller.rb:7: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/home_controller.rb:7: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for ::1 at 2024-01-16 00:36:12 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 65.4ms | Allocations: 35764)
+  Rendered layout layouts/application.html.erb (Duration: 76.8ms | Allocations: 40661)
+Completed 200 OK in 85ms (Views: 80.7ms | ActiveRecord: 0.0ms | Allocations: 47413)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:36:13 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 00:37:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2864)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 7802)
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 14555)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:37:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 00:37:40 +0100
+  
+AbstractController::ActionNotFound (The action 'submit' could not be found for ContactController):
+  
+actionpack (7.1.2) lib/abstract_controller/base.rb:155:in `process'
+actionview (7.1.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:43:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.2) lib/active_record/migration.rb:654:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-01-16 00:39:19 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 39.8ms | Allocations: 25279)
+  Rendered layout layouts/application.html.erb (Duration: 52.8ms | Allocations: 30182)
+Completed 200 OK in 64ms (Views: 57.1ms | ActiveRecord: 0.0ms | Allocations: 36934)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:39:20 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 00:43:35 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 41.5ms | Allocations: 24775)
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | Allocations: 29677)
+Completed 200 OK in 61ms (Views: 56.5ms | ActiveRecord: 0.0ms | Allocations: 36430)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:43:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 00:43:44 +0100
+  
+AbstractController::ActionNotFound (The action 'submit' could not be found for ContactController):
+  
+actionpack (7.1.2) lib/abstract_controller/base.rb:155:in `process'
+actionview (7.1.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:43:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.2) lib/active_record/migration.rb:654:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-01-16 00:46:03 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 37.5ms | Allocations: 24655)
+  Rendered layout layouts/application.html.erb (Duration: 50.9ms | Allocations: 29557)
+Completed 200 OK in 63ms (Views: 55.1ms | ActiveRecord: 0.0ms | Allocations: 36310)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:46:03 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 00:48:12 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 41.9ms | Allocations: 24629)
+  Rendered layout layouts/application.html.erb (Duration: 57.3ms | Allocations: 29531)
+Completed 200 OK in 66ms (Views: 60.9ms | ActiveRecord: 0.0ms | Allocations: 36284)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:48:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started GET "/home/linkedin.png" for ::1 at 2024-01-16 00:49:41 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/home/linkedin.png"):
+  
+Started GET "/home/linkedin.png" for ::1 at 2024-01-16 00:53:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/home/linkedin.png"):
+  
+Started GET "/home/linkedin.png" for ::1 at 2024-01-16 00:53:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/home/linkedin.png"):
+  
+Started GET "/home/linkedin.png" for ::1 at 2024-01-16 00:53:24 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/home/linkedin.png"):
+  
+Started GET "/home/linkedin.png" for ::1 at 2024-01-16 00:53:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/home/linkedin.png"):
+  
+Started GET "/home/Linkedin.png" for ::1 at 2024-01-16 00:53:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/home/Linkedin.png"):
+  
+Started GET "/home/Linkedin.png" for ::1 at 2024-01-16 00:55:12 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/home/Linkedin.png"):
+  
+Started GET "/home/Linkedin.png" for ::1 at 2024-01-16 00:55:13 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/home/Linkedin.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 00:55:22 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2777)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 5412)
+Completed 200 OK in 13ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 8429)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 00:55:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 00:55:30 +0100
+  
+SyntaxError (/home/bonneville/mesprojets/jlbcodeurrails/app/controllers/contact_controller.rb:90: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/contact_controller.rb:90: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for ::1 at 2024-01-16 01:03:59 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2867)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 7805)
+Completed 200 OK in 22ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 14558)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 01:03:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 01:08:41 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2867)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 7805)
+Completed 200 OK in 21ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 14558)
+
+
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 01:08:42 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 01:10:28 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2867)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 7805)
+Completed 200 OK in 21ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 14558)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-16 01:10:28 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/images/linkedin.png" for ::1 at 2024-01-16 01:10:28 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/linkedin.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 01:12:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2867)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 7805)
+Completed 200 OK in 21ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 14558)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-16 01:12:54 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 01:13:17 +0100
+Processing by ContactController#submit as JSON
+  Parameters: {"firstname"=>"j", "name"=>"n", "email"=>"h", "phone"=>"n", "message"=>"hh"}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 410)
+
+
+Started POST "/submit" for ::1 at 2024-01-16 01:14:04 +0100
+Processing by ContactController#submit as JSON
+  Parameters: {"firstname"=>"jean luc", "name"=>"bonneville", "email"=>"jeanlucbonneville@gmail.com", "phone"=>"0650909182", "message"=>"bon"}
+Can't verify CSRF token authenticity.
+ContactMailer#send_email: processed outbound mail in 16.2ms
+Delivered mail 65a5ca4ca786f_5e323944439e7@bonneville-Latitude-7480.mail (50.1ms)
+Date: Tue, 16 Jan 2024 01:14:04 +0100
+From: from@example.com
+To: jeanlucbonneville@gmail.com
+Message-ID: <65a5ca4ca786f_5e323944439e7@bonneville-Latitude-7480.mail>
+Subject: Message de jlbcodeur !!
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+header: From: jean luc bonneville <jeanlucbonneville@gmail.com>=0D=0AReply-To:
+ jeanlucbonneville@gmail.com
+
+Firstname: jean luc
+Name: bonneville
+Email: jeanlucbonneville@gmail.com
+Phone: 0650909182
+Message: bon
+
+Completed 200 OK in 162ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 82901)
+
+
+Started GET "/" for ::1 at 2024-01-16 01:18:21 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2867)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 7805)
+Completed 200 OK in 22ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 14558)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-16 01:18:21 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 01:18:29 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 815)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 1132)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-16 01:18:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 01:18:55 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2867)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 7805)
+Completed 200 OK in 19ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 14558)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-16 01:18:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 01:20:14 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2875)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 7813)
+Completed 200 OK in 29ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 14566)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-16 01:20:14 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-16 01:29:47 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2875)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 7813)
+Completed 200 OK in 27ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 14566)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-16 01:29:48 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 01:31:12 +0100
+Processing by ContactController#submit as JSON
+  Parameters: {"firstname"=>"j", "name"=>"h", "email"=>"", "phone"=>";", "message"=>""}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 411)
+
+
+Started POST "/submit" for ::1 at 2024-01-16 01:31:41 +0100
+Processing by ContactController#submit as JSON
+  Parameters: {"firstname"=>"jeanluc", "name"=>"bonneville", "email"=>"jezn@com", "phone"=>"06", "message"=>"22"}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 234)
+
+
+Started POST "/submit" for ::1 at 2024-01-16 01:32:04 +0100
+Processing by ContactController#submit as JSON
+  Parameters: {"firstname"=>"jeanluc", "name"=>"bonneville", "email"=>"jeanluc@gmail.com", "phone"=>"06", "message"=>"22"}
+Can't verify CSRF token authenticity.
+ContactMailer#send_email: processed outbound mail in 3.7ms
+Delivered mail 65a5ce84dcc8b_619c393047443@bonneville-Latitude-7480.mail (6.9ms)
+Date: Tue, 16 Jan 2024 01:32:04 +0100
+From: from@example.com
+To: jeanlucbonneville@gmail.com
+Message-ID: <65a5ce84dcc8b_619c393047443@bonneville-Latitude-7480.mail>
+Subject: Message de jlbcodeur !!
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+header: From: jeanluc bonneville <jeanluc@gmail.com>=0D=0AReply-To:
+ jeanluc@gmail.com
+
+Firstname: jeanluc
+Name: bonneville
+Email: jeanluc@gmail.com
+Phone: 06
+Message: 22
+
+Completed 200 OK in 107ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 67871)
+
+
+Started GET "/" for ::1 at 2024-01-16 23:05:08 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2875)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 5524)
+Completed 200 OK in 20ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 12343)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-16 23:05:08 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-16 23:05:26 +0100
+Processing by ContactController#submit as JSON
+  Parameters: {"firstname"=>"j", "name"=>"j", "email"=>"j", "phone"=>"j", "message"=>"j"}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 410)
+
+
+Started POST "/submit" for ::1 at 2024-01-16 23:05:48 +0100
+Processing by ContactController#submit as JSON
+  Parameters: {"firstname"=>"j", "name"=>"j", "email"=>"jl@gmail.com", "phone"=>"06", "message"=>"j"}
+Can't verify CSRF token authenticity.
+ContactMailer#send_email: processed outbound mail in 5.3ms
+Delivered mail 65a6fdbdcceb_3b9c3930373e7@bonneville-Latitude-7480.mail (15.2ms)
+Date: Tue, 16 Jan 2024 23:05:49 +0100
+From: from@example.com
+To: jeanlucbonneville@gmail.com
+Message-ID: <65a6fdbdcceb_3b9c3930373e7@bonneville-Latitude-7480.mail>
+Subject: Message de jlbcodeur !!
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+header: From: j j <jl@gmail.com>=0D=0AReply-To: jl@gmail.com
+
+Firstname: j
+Name: j
+Email: jl@gmail.com
+Phone: 06
+Message: j
+
+Completed 200 OK in 96ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 67913)
+
+
+Started GET "/" for ::1 at 2024-01-19 00:28:23 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2875)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 7813)
+Completed 200 OK in 26ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 14565)
+
+
+Started GET "/images/Solvay.png" for ::1 at 2024-01-19 00:28:23 +0100
+Started GET "/images/rio-tinto-Aluminium%20Dunkerque.png" for ::1 at 2024-01-19 00:28:23 +0100
+Started GET "/images/AD%20Rio%20Tinto.jpg" for ::1 at 2024-01-19 00:28:23 +0100
+Started GET "/images/pechiney-logo-png.png" for ::1 at 2024-01-19 00:28:23 +0100
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:28:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Solvay.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/pechiney-logo-png.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/AD%20Rio%20Tinto.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/rio-tinto-Aluminium%20Dunkerque.png"):
+  
+Started GET "/images/sanofi.png" for ::1 at 2024-01-19 00:28:24 +0100
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:28:24 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/sanofi.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-19 00:36:01 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2875)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 7813)
+Completed 200 OK in 26ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 14565)
+
+
+Started GET "/images/Solvay.png" for ::1 at 2024-01-19 00:36:02 +0100
+Started GET "/images/rio-tinto-Aluminium%20Dunkerque.png" for ::1 at 2024-01-19 00:36:02 +0100
+Started GET "/images/AD%20Rio%20Tinto.jpg" for ::1 at 2024-01-19 00:36:02 +0100
+Started GET "/images/pechiney-logo-png.png" for ::1 at 2024-01-19 00:36:02 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/AD%20Rio%20Tinto.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/rio-tinto-Aluminium%20Dunkerque.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/pechiney-logo-png.png"):
+  
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:36:02 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Solvay.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:36:02 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/images/sanofi.png" for ::1 at 2024-01-19 00:36:02 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/sanofi.png"):
+  
+Started GET "/" for ::1 at 2024-01-19 00:38:34 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 739)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 1051)
+
+
+Started GET "/images/Solvay.png" for ::1 at 2024-01-19 00:38:34 +0100
+Started GET "/images/rio-tinto-Aluminium%20Dunkerque.png" for ::1 at 2024-01-19 00:38:34 +0100
+Started GET "/images/AD%20Rio%20Tinto.jpg" for ::1 at 2024-01-19 00:38:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/AD%20Rio%20Tinto.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/rio-tinto-Aluminium%20Dunkerque.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Solvay.png"):
+  
+Started GET "/images/pechiney-logo-png.png" for ::1 at 2024-01-19 00:38:34 +0100
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:38:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/pechiney-logo-png.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:38:35 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-19 00:39:35 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 700)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 981)
+
+
+Started GET "/images/Solvay.png" for ::1 at 2024-01-19 00:39:35 +0100
+Started GET "/images/AD%20Rio%20Tinto.jpg" for ::1 at 2024-01-19 00:39:35 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/AD%20Rio%20Tinto.jpg"):
+  
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:39:35 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Solvay.png"):
+  
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:39:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-19 00:39:58 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 700)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 995)
+
+
+Started GET "/images/Solvay.png" for ::1 at 2024-01-19 00:39:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Solvay.png"):
+  
+Started GET "/images/AD%20Rio%20Tinto.jpg" for ::1 at 2024-01-19 00:39:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/AD%20Rio%20Tinto.jpg"):
+  
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:39:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:39:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-19 00:39:59 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 700)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 980)
+
+
+Started GET "/images/Solvay.png" for ::1 at 2024-01-19 00:39:59 +0100
+Started GET "/images/AD%20Rio%20Tinto.jpg" for ::1 at 2024-01-19 00:39:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/AD%20Rio%20Tinto.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Solvay.png"):
+  
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:39:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:39:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-19 00:40:23 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 705)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 987)
+
+
+Started GET "/images/Solvay.png" for ::1 at 2024-01-19 00:40:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Solvay.png"):
+  
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:40:23 +0100
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:40:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/" for ::1 at 2024-01-19 00:40:42 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 700)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 981)
+
+
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:40:42 +0100
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:40:42 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-19 00:45:51 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2744)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 5249)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 6511)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:45:51 +0100
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:45:51 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:45:51 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/" for ::1 at 2024-01-19 00:46:01 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 700)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 995)
+
+
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:46:01 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:46:01 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/images/toto.png" for ::1 at 2024-01-19 00:46:02 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/toto.png"):
+  
+Started POST "/submit" for ::1 at 2024-01-19 00:46:55 +0100
+Processing by ContactController#submit as JSON
+  Parameters: {"firstname"=>"jl", "name"=>"bo", "email"=>"su@gmail.com", "phone"=>"06", "message"=>"vc"}
+Can't verify CSRF token authenticity.
+ContactMailer#send_email: processed outbound mail in 10.0ms
+Delivered mail 65a9b86f93be9_4d8e3908619ec@bonneville-Latitude-7480.mail (10.5ms)
+Date: Fri, 19 Jan 2024 00:46:55 +0100
+From: from@example.com
+To: jeanlucbonneville@gmail.com
+Message-ID: <65a9b86f93be9_4d8e3908619ec@bonneville-Latitude-7480.mail>
+Subject: Message de jlbcodeur !!
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+header: From: jl bo <su@gmail.com>=0D=0AReply-To: su@gmail.com
+
+Firstname: jl
+Name: bo
+Email: su@gmail.com
+Phone: 06
+Message: vc
+
+Completed 200 OK in 99ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 63471)
+
+
+Started GET "/" for ::1 at 2024-01-19 00:47:39 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 825)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1139)
+
+
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 00:47:39 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/" for ::1 at 2024-01-19 01:18:01 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2875)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 7813)
+Completed 200 OK in 21ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 14565)
+
+
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 01:18:01 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/" for ::1 at 2024-01-19 01:18:47 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 2.0ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2686)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3949)
+
+
+Started GET "/%3C%=%20asset_path('styles.css')%20%%3E" for ::1 at 2024-01-19 01:18:47 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/%3C%=%20asset_path('styles.css')%20%%3E"):
+  
+Started GET "/%3C%=%20asset_path('script.js')%20%%3E" for ::1 at 2024-01-19 01:18:47 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/%3C%=%20asset_path('script.js')%20%%3E"):
+  
+Started GET "/%3C%=%20asset_path('me.png')%20%%3E" for ::1 at 2024-01-19 01:18:47 +0100
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 01:18:47 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/%3C%=%20asset_path('me.png')%20%%3E"):
+  
+Started GET "/" for ::1 at 2024-01-19 22:19:39 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 3104)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#index is missing a template for request formats: text/html):
+  
+actionpack (7.1.2) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.2) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.2) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.2) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.2) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+actiontext (7.1.2) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.2) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.2) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.2) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.2) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.2) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.2) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.2) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:31:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.2) lib/active_record/migration.rb:654:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-01-19 22:19:40 +0100
+Processing by HomeController#index as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 571)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#index is missing a template for request formats: text/html):
+  
+actionpack (7.1.2) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.2) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.2) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.2) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.2) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+actiontext (7.1.2) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.2) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.2) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.2) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.2) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.2) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.2) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.2) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:31:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.2) lib/active_record/migration.rb:654:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-01-19 22:19:56 +0100
+Processing by HomeController#index as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 554)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#index is missing a template for request formats: text/html):
+  
+actionpack (7.1.2) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.2) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.2) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.2) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.2) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+actiontext (7.1.2) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.2) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.2) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.2) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.2) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.2) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.2) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.2) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.2) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:31:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.2) lib/active_record/migration.rb:654:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-01-19 22:26:41 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2785)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 5398)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 6778)
+
+
+Started GET "/images/Moet%20et%20Chandon.jpg" for ::1 at 2024-01-19 22:26:42 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/Moet%20et%20Chandon.jpg"):
+  
+Started GET "/" for ::1 at 2024-01-19 22:55:44 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2878)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 7822)
+Completed 200 OK in 25ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 14574)
+
+
+Started GET "/" for ::1 at 2024-01-19 22:58:42 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1625)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 4132)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 5395)
+
+
+Started GET "/" for ::1 at 2024-01-20 00:39:32 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1754)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 4403)
+Completed 200 OK in 21ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 11141)
+
+
