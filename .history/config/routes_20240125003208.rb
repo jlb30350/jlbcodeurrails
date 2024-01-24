@@ -5,6 +5,10 @@ Rails.application.routes.draw do
 
   resources :home, only: [:index]
 
+  get "home", to: "home#index"
+
   get '/contact', to: 'contact#index'
   post '/submit', to: 'contact#submit', as: 'submit_contact'
+
+
 end
